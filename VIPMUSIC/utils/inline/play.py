@@ -318,8 +318,8 @@ def panel_markup_3(_, videoid, chat_id):
         ],
     ]
     return buttons
-    
-            ),
+        ],
+        [
             InlineKeyboardButton(
                 text="🕤 1.0x",
                 callback_data=f"SpeedUP {chat_id}|1.0",
